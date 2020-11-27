@@ -8,4 +8,6 @@ set -x
 
 GOPROXY=https://goproxy.io,direct go build -o myssh github.com/lisr/myssh/cmd/myssh
 
-./myssh kube
+# ./myssh kube
+
+echo done 😄
